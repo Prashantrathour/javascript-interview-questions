@@ -8262,7 +8262,7 @@ person.greet();
 **Example 4: this in an Event Handler**
 ```javascript
 document.getElementById('myButton').addEventListener('click', function() {
-  console.log(this);
+  console.log(this)
 });
 ```
 *  In an event handler, this refers to the element that triggered the event (the button in this case).
